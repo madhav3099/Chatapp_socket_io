@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Socket.Io</h1>
+
+    <div id="loginbox">
+        <input id="inpusername">
+        <button id="btnstart">START</button>
+    </div>
+
+    <div id="chatbox">
+        <input id="inptouser" placeholder="Send to (default everyone)">
+        <input id="inpnewmsg" placeholder="New message">
+        <button id="btnsendmsg">SEND</button>
+        <ul id="ulmsg">
+
+        </ul>
+    </div>
+</body>
+</html>
